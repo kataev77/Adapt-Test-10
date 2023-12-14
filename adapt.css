@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-weight: bolder;
+  }
+  header {
+    background-color: lightgray;
+    color: #fff;
+    font-size: 3em;
+  }
+  footer {
+    background-color: lightgray;
+    color: #fff;
+    font-size: 2em;
+  }
+  .header-title {
+    width: 1140px;
+    margin: auto;
+    padding: 20px 40px;
+    background-color: #e1e1e1;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .footer-title {
+    width: 1140px;
+    margin: auto;
+    padding: 20px 40px;
+    background-color: #e1e1e1;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  main {
+    width: 1140px;
+    margin: auto;
+    padding-top: 30px;
+  }
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 30px;
+  }
+  .one-item {
+    width: 350px;
+    height: 300px;
+  }
+  .two-item {
+    width: 550px;
+    height: 300px;
+  }
+  .three-item {
+    width: 250px;
+    height: 300px;
+  }
+  .item-image-bg {
+    background-color: #e1e1e1;
+    height: 200px;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .item-title {
+    background-color: lightgray;
+    width: 80%;
+    height: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+  }
+  .item-subtitle {
+    background-color: darkgrey;
+    width: 60%;
+    height: 20px;
+    border-radius: 20px;
+  }
+  .title {
+    color: darkgrey;
+    font-size: 50px;
+    margin: 0 0 10px 0;
+  }
+  @media only screen and (max-width: 420px) {
+    .header-title{
+    max-width: 100%;
+    background-color: red;
+    
+    }
+    main{
+    max-width: 100%;
+    }
+    h1{
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer-title{
+    max-width: 100%;
+    }
+    .one-item{
+        margin: auto;
+    }
+    .item-title {
+        margin: auto;
+        margin-top: 10px;
+    }
+    .item-subtitle{
+        margin: auto;
+        margin-top: 10px;
+    }
+    .two-item{
+        margin: auto;
+        text-align: center;
+    }
+    .three-item{
+        margin: auto;
+    }
+    img{
+        max-width: 100%;
+        height: 200px;
+        border-radius: 20px;
+    }
+  }
